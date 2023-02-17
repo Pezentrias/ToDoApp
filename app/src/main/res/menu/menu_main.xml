@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.todoapp.MainActivity">
+    <item
+        android:id="@+id/miMegnevezes"
+        android:orderInCategory="100"
+        android:title="Megnevezés szerint növekvő"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/miHatarido"
+        android:orderInCategory="100"
+        android:title="Határidő szerint csökkenő"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/miFontossag"
+        android:orderInCategory="100"
+        android:title="Fontosság szerint csökkenő"
+        app:showAsAction="never" />
+
+</menu>
